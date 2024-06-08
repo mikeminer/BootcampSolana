@@ -1,0 +1,32 @@
+{
+  "name": "masterz-bootcamp",
+  "version": "1.0.0",
+  "description": "Esame MasterZ Solana Dev Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "keygen": "ts-node keygen.ts",
+    "airdrop": "ts-node airdrop.ts",
+    "init": "ts-node spl_init.ts",
+    "mint": "ts-node spl_mint.ts",
+    "transfer": "ts-node spl_transfer.ts"
+  },
+  "keywords": [
+    "solana",
+    "token",
+    "cryptocurrency",
+    "blockchain",
+    "masterz",
+    "bootcamp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.41.1",
+    "@solana/spl-token": "^0.2.0",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "ts-node": "^10.4.0"
+  }
+}
